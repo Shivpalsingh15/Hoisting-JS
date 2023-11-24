@@ -92,13 +92,11 @@
 //   console.log(hello1);
 // }
 
-
 // const hello1 = "yes tell";
 // hello(); // will give output
 // function hello() {
 //   console.log(hello1);
 // }
-
 
 // hello(); // CANOT NOT ACCESS BEFORE INTIALIZED
 // const hello1 = "yes tell";
@@ -112,8 +110,21 @@
 //   console.log(hello1);
 // }
 
-// hello(); // undefined 
+// hello(); // undefined
 // var hello1 = "yes tell";
 // function hello() {
 //   console.log(hello1);
 // }
+
+// about window & this keyword
+// window === this  give  true both are same
+// check copy notes for more....... IMP.
+//  represt the browser window
+//  this keyword at global level represt window object
+
+//
+
+let a = 0;
+// console.log(window.a); same
+// console.log(this.a); same
+// console.log(a);  same
